@@ -1,7 +1,7 @@
 # mocha-babel-test
 
-when use `mocha` and `babel-core/register` running ES6 tests.
-Chinese Charactors will cause error when compile without cache.
+Using `mocha` and `babel-core/register` running ES6 tests.
+Chinese charactors will cause error when compile without cache.
 
 ## Steps
 
@@ -24,3 +24,13 @@ But, if we delete the comment "`//要瘋了`", first line at `index.js`
 * `npm run test-no-cache`
 
 the test will pass
+
+and if we change the method of recursive function delcare from
+
+`var recursiveFunc = function () { ... }`
+
+to
+
+`function recursiveFunc () { ... }`
+
+This error will not appear
