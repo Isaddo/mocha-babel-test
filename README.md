@@ -9,7 +9,7 @@ Chinese charactors will cause error when compile without cache.
 
 * `npm test`
 
-First time run the test, we will get `ReferenceError: recursiveFunc is not defined`
+First time running the test, we will get `ReferenceError: recursiveFunc is not defined`
 
 * then `npm test`
 
