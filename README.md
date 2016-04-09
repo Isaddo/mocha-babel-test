@@ -3,7 +3,7 @@
 Using `mocha` and `babel-core/register` running ES6 tests.
 Chinese charactors will cause error when compile without cache.
 
-## Steps
+## Reproduce Steps
 
 * `npm install`
 
